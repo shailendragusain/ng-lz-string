@@ -47,7 +47,7 @@ Once your library is imported in your module, you can use it in your Angular app
 ```typescript
 import {LZStringService} from 'ng-lz-string';
 
-class AppComponent implements OnInit {
+export class AppComponent implements OnInit {
 	constructor(private lz: LZStringService){
 	
 	}
