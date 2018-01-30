@@ -1,5 +1,7 @@
 # ng-lz-string
 
+An Angular wrapper for lz-string. Built and tested for Angular 4. Should work for > Angular 4.
+
 ## Installation
 
 To install this library, run:
@@ -43,15 +45,14 @@ export class AppModule { }
 Once your library is imported in your module, you can use it in your Angular application:
 
 ```typescript
-import ....your imports....
 import {LZStringService} from 'ng-lz-string';
 
 class AppComponent implements OnInit {
-	constructor(private lz: LZStringService) {
+	constructor(private lz: LZStringService){
 	
 	}
 	
-	performCompressionAndDecompression() {
+	performCompressionAndDecompression(){
 		const compressed = this.lz.compress('This is going to be compressed');
 		
 		console.log(compressed);
@@ -62,4 +63,3 @@ class AppComponent implements OnInit {
 	}
 }
 ```
-
