@@ -1,16 +1,16 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-import { AppComponent } from './app.component';
+import { LZString } from './lz-string';
 
 @NgModule({
   declarations: [
-    AppComponent
+    LZString
   ],
   imports: [
     BrowserModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [LZString]
 })
 export class LZStringModule { }
