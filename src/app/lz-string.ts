@@ -1,4 +1,3 @@
-import { Component } from '@angular/core';
 import * as JSLZString from 'lz-string';
 
 export class LZString {
