@@ -43,14 +43,15 @@ export class AppModule { }
 Once your library is imported in your module, you can use it in your Angular application:
 
 ```typescript
+import ....your imports....
 import {LZStringService} from 'ng-lz-string';
 
 class AppComponent implements OnInit {
-	constructor(private lz: LZStringService){
+	constructor(private lz: LZStringService) {
 	
 	}
 	
-	performCompressionAndDecompression(){
+	performCompressionAndDecompression() {
 		const compressed = this.lz.compress('This is going to be compressed');
 		
 		console.log(compressed);
