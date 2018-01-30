@@ -63,7 +63,3 @@ class AppComponent implements OnInit {
 }
 ```
 
-
-## License
-
-MIT © [Shailendra Gusain](mailto:shail9689@gmail.com)
