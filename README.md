@@ -42,7 +42,7 @@ import { LZStringModule, LZStringService } from 'ng-lz-string';
 export class AppModule { }
 ```
 
-Once your library is imported in your module, you can use it in your Angular application:
+Once the library is imported in your module, you can use it in your Angular application:
 
 ```typescript
 import {LZStringService} from 'ng-lz-string';
